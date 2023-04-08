@@ -12,8 +12,8 @@ let questionCounter = 0;
 
 for(let i = questionArray; i >= 0 ; i--){
     console.log(i);
-    //questionCounter++;
-    //console.log(questionCounter);
+    questionCounter++;
+    console.log(questionCounter);
 };
 
 //let originalStory="The bear is a wild animal. It can be found in black, brown and white color. It has sharp teeth and a lot of fur on its body. It can climb trees and eat fruits like berries. It loves to eat fish and honey. Bears can stand on their two back legs like human beings."
