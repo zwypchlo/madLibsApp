@@ -10,10 +10,10 @@ let questions = 3;
 let questionArray = ["Enter a noun", "Enter a verb", "Enter a color"];
 let questionCounter = 0;
 
-for(let i = questions; i >= 0; i--){
+for(let i = questions-1; i >= 0; i--){
+    questions--;
+    console.log(questionArray[questionCounter] + `(${questions} questions left)`);
     questionCounter++;
-    console.log(questionCounter);
-    //console.log(questionArray[i] + `(${} questions left)`);
 };
 
 //let originalStory="The bear is a wild animal. It can be found in black, brown and white color. It has sharp teeth and a lot of fur on its body. It can climb trees and eat fruits like berries. It loves to eat fish and honey. Bears can stand on their two back legs like human beings."
